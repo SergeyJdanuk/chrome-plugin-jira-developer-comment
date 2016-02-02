@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "bower": "^1.7.7",
     "connect": "^3.4.0",
     "connect-livereload": "^0.5.4",
     "del": "^2.2.0",
