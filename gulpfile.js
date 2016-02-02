@@ -84,7 +84,8 @@ gulp.task('sprites', function(cb) {
 // Optimize images
 gulp.task('images', function() {
   return gulp.src(paths.images)
-    .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
+    // .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
+    .pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
     .pipe(gulp.dest('dist/assets/images'))
     .pipe(notify({ message: 'Images task complete' }));
 });
