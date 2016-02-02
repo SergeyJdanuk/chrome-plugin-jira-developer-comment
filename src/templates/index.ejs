@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project title</title>
+    <link href="assets/css/app.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <p class="bg-primary" style="padding: .8em; font-size: 1.2em;">Developer's comment</p>
+    <div class="container theme-showcase" role="main" style="width: 500px; padding: 0 .5em .5em .5em">
+        <form>
+          <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><abbr title="What was done" class="initialism">WD</abbr></span>
+                <input type="text" class="form-control input-sm" id="what-was-done-input" placeholder="What was done">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><abbr title="Affected areas" class="initialism">AA</abbr></span>
+                <input type="text" class="form-control input-sm" id="affected-areas-input" placeholder="Affected areas" value="this was the point fix, should not affect anything, related only to this issue.">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><abbr title="Merge request" class="initialism">MR</abbr></span>
+                <input type="text" class="form-control input-sm" id="merge-request-input" placeholder="Merge request">
+            </div>
+          </div>
+          <div class="from-group">
+            <div class="input-group">
+                <span class="input-group-addon"><abbr title="Deployed to" class="initialism">DT</abbr></span>
+                <input type="text" class="form-control input-sm" id="deployed-to-input" placeholder="Deployed to" value="prev">
+            </div>
+          </div>
+          <br />
+          <button type="button" id="submit" class="btn btn-default btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+	"name": "Jira developer comment",
+	"description": "Jira developer comment",
+	"version": "1.0",
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*",
+		"storage"
+	],
+	"browser_action": {
+		"default_title": "Developer's comment.",
+		"default_popup": "index.html"
+	},
+	"manifest_version": 2,
+	"icons": { 
+		"16": "assets/images/icons/icon_16.png",
+		"32": "assets/images/icons/icon_32.png",
+		"48": "assets/images/icons/icon_48.png",
+		"128": "assets/images/icons/icon_128.png" 
+	}
+}
