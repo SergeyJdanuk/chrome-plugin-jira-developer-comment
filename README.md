@@ -8,5 +8,6 @@
 4. `node_modules/.bin/bower install`
 4. `node_modules/.bin/gulp` it will create a dist dir.
 5. Open in chrome browser: Settings -> Extensions
-6. Click "Load unpacked extension" button
-7. Select "jdc-plugin/dist" dir
+6. Check "Developer mode" field.
+7. Click "Load unpacked extension" button
+8. Select "jdc-plugin/dist" dir
