@@ -1,0 +1,1 @@
+![alt text](docs/images/image.png "Developer's plugin demo")
