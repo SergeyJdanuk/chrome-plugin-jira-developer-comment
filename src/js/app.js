@@ -8,7 +8,6 @@ $(function() {
     var mergeRequest = null;
     var deployedTo = null;
     var affectedAreasDefaultVal = 'this was the point fix, should not affect anything, related only to this issue.';
-    var background = chrome.extension.getBackgroundPage();
 
     initialize();
 
