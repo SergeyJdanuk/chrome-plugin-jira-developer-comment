@@ -27,7 +27,7 @@ $(function() {
             "var comment = document.getElementById('comment');",
             "if (footerCommentButton && comment) {",
             "   footerCommentButton.click();",
-            "   comment.value += \""+commentSrc+"\";",
+            "   comment.value += \""+commentSrc.split('"').join('\\"')+"\";",
             "}"].join('\n');
     
         chrome.tabs.executeScript(null, {code: code});
